@@ -16,5 +16,15 @@
             alert(1);
         });
     </script>
+    <section id ='header'>
+        <h1>This is header section</h1>
+    </section>
+    <section id ='content'>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, commodi.
+        </h1>
+    </section>
+    <section id ='footer'>
+        <h1>Footer Section</h1>
+    </section>
 </body>
 </html>
