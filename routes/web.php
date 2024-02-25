@@ -12,8 +12,8 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route ::get('/', [App\Http\Controllers\SiteController::class, 'getHome']);
-Route ::get('/About', [App\Http\Controllers\SiteController::class, 'getAbout']);
+Route ::get('/', [App\Http\Controllers\SiteController::class, 'getHome'])->name('getHome');
+Route ::get('/About', [App\Http\Controllers\SiteController::class, 'getAbout'])->name('getAbout');
 Route ::get('/Service', [App\Http\Controllers\SiteController::class, 'getService']);
 Route ::get('/Gallery', [App\Http\Controllers\SiteController::class, 'getGallery']);
 Route ::get('/Contact', [App\Http\Controllers\SiteController::class, 'getContact']);

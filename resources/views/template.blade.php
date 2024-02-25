@@ -11,17 +11,21 @@
 </head>
 <body>
     <h1>Yogendra Subedi</h1>
-    <script>  
+    <!-- <script>  
         $(document).ready(function(){
             alert(1);
         });
-    </script>
+    </script> -->
     <section id ='header'>
-        <h1>This is header section</h1>
+         <div class ='menu'>
+            <a href="{{route('getHome')}}">Home</a>
+            <a href="{{route('getAbout')}}">About Us</a>
+            <a href="">Services</a>
+            <a href="">Gallery</a>
+         </div>
     </section>
     <section id ='content'>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, commodi.
-        </h1>
+        @yield('abc')
     </section>
     <section id ='footer'>
         <h1>Footer Section</h1>
